@@ -28,3 +28,10 @@ data/raw/
 # Temporary files
 *.tmp
 *.log
+
+# Intermediate flood analysis outputs
+outputs/flood/baseline/
+outputs/flood/flood_comparison.png
+outputs/flood/flood_extent.geojson
+outputs/flood/flood_mask.tif
+outputs/flood/vv_backscatter_change.tif
