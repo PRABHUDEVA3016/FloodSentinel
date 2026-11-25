@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED",
+  "data_source": "NOAA VIIRS DNB MONTHLY V1 VCMSLCFG",
+  "observations": 24,
+  "monthly_mean_radiance": 1.028147763457542,
+  "yearly_mean_radiance": {
+    "2021": 1.015702144084086,
+    "2022": 1.040593382830998
+  },
+  "annual_change_pct": 2.4506435170871477,
+  "interpretation": "Nightlight radiance is an economic activity proxy, not direct GDP measurement."
+}

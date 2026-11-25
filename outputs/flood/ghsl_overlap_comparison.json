@@ -1,0 +1,12 @@
+{
+  "ghsl_reference": "GHSL_Silchar_2020.tif",
+  "original_candidate_pixels": 1790919,
+  "improved_candidate_pixels": 1776561,
+  "original_ghsl_overlap_pixels": 336632,
+  "improved_ghsl_overlap_pixels": 331631,
+  "original_ghsl_overlap_km2": 33.6632,
+  "improved_ghsl_overlap_km2": 33.1631,
+  "original_overlap_percentage": 18.79660665836925,
+  "improved_overlap_percentage": 18.66702015860981,
+  "interpretation": "GHSL-positive-value overlap is a screening indicator, not confirmed building exposure or flood damage."
+}

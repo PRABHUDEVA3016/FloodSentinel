@@ -1,0 +1,37 @@
+{
+    "status": "COMPLETED",
+    "assessment_type": "SPATIAL_RISK_SCREENING",
+    "study_area": "Silchar, Assam, India",
+    "flood_indicators": {
+        "candidate_area_km2": 179.0919,
+        "candidate_pixels": 1790919,
+        "candidate_classification": "SAR_DERIVED_FLOOD_CANDIDATES"
+    },
+    "urban_footprint_indicators": {
+        "ghsl_positive_value_overlap_km2": 33.6632,
+        "candidate_area_overlap_percentage": 18.796606658369253,
+        "interpretation": "Spatial overlap with positive-value GHSL cells. Not independently verified flooded buildings or infrastructure."
+    },
+    "economic_activity_context": {
+        "viirs_observations": 24,
+        "yearly_mean_radiance": {
+            "2021": 1.015702144084086,
+            "2022": 1.040593382830998
+        },
+        "annual_radiance_change_pct": 2.4506435170871477,
+        "interpretation": "Regional nighttime-light activity context. Not a direct measurement of flood-related economic loss."
+    },
+    "assessment_conclusion": {
+        "screening_status": "INDICATORS_AVAILABLE",
+        "validated_flood_extent": false,
+        "monetary_damage_estimated": false,
+        "ground_truth_validation": false,
+        "reason": "Independent flood reference data and verified asset exposure values are required before operational risk classification."
+    },
+    "limitations": [
+        "SAR-derived flood candidates require independent validation.",
+        "GHSL positive-value overlap is not confirmed building exposure.",
+        "VIIRS radiance is contextual economic information.",
+        "No actual monetary damage or insurance payout is estimated."
+    ]
+}

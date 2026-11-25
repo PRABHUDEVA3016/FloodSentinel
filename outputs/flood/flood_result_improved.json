@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED",
+  "classification": "SAR_FLOOD_CANDIDATES_AFTER_HISTORICAL_WATER_SCREENING",
+  "study_area": "Silchar, Assam, India",
+  "jrc_threshold_percent": 90,
+  "original_candidate_pixels": 1790919,
+  "excluded_permanent_water_pixels": 14358,
+  "remaining_candidate_pixels": 1776561,
+  "original_candidate_area_km2": 179.0919,
+  "excluded_area_km2": 1.4358,
+  "candidate_area_km2": 177.6561,
+  "candidate_area_reduction_percent": 0.8017113001760547,
+  "geojson_polygon_count": 1189,
+  "ghsl_positive_value_overlap_km2": 33.1631,
+  "validation": "Not independently validated against flood reference labels.",
+  "limitations": [
+    "JRC occurrence represents historical water frequency through 2021.",
+    "JRC exclusion is a screening step, not proof of permanent water.",
+    "Areas with invalid JRC pixels are not excluded.",
+    "Remaining SAR candidates may include non-flood changes.",
+    "No monetary damage estimate is produced."
+  ],
+  "ghsl_positive_value_overlap_pixels": 331631,
+  "ghsl_overlap_percentage_of_candidates": 18.66702015860981,
+  "ghsl_reference": "GHSL_Silchar_2020.tif"
+}

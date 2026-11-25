@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETED",
+  "classification_basis": "Positive versus zero GHSL raster values",
+  "product_semantics": "Requires confirmation from original GHSL product metadata",
+  "historical_years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "history": [
+    {
+      "year": 2000,
+      "positive_value_cells": 22148,
+      "raster_value_sum": 16242830.0,
+      "mean_positive_value": 733.3768310546875
+    },
+    {
+      "year": 2005,
+      "positive_value_cells": 24216,
+      "raster_value_sum": 17526806.0,
+      "mean_positive_value": 723.7696533203125
+    },
+    {
+      "year": 2010,
+      "positive_value_cells": 26604,
+      "raster_value_sum": 19153624.0,
+      "mean_positive_value": 719.9527587890625
+    },
+    {
+      "year": 2015,
+      "positive_value_cells": 30505,
+      "raster_value_sum": 20875840.0,
+      "mean_positive_value": 684.3416137695312
+    },
+    {
+      "year": 2020,
+      "positive_value_cells": 33626,
+      "raster_value_sum": 22207356.0,
+      "mean_positive_value": 660.4221801757812
+    }
+  ],
+  "model": "RandomForestClassifier",
+  "forecast_year": 2025,
+  "forecast_positive_cells": 33653,
+  "forecast_probability_mean": 0.4595286500596575,
+  "validation": {
+    "validation": "Latest historical transition; spatially overlapping pixels",
+    "balanced_accuracy": 0.953592458216856,
+    "f1_score": 0.9513339882428155,
+    "interpretation": "Experimental temporal holdout, not independent spatial validation"
+  },
+  "forecast_status": "EXPERIMENTAL_MODEL_OUTPUT"
+}

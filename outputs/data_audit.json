@@ -1,0 +1,132 @@
+{
+  "rasters": [
+    {
+      "file": "GHSL_Silchar_2000.tif",
+      "width": 305,
+      "height": 278,
+      "bands": 1,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731700.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('uint16',)",
+      "nodata": null,
+      "resolution": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "file": "GHSL_Silchar_2005.tif",
+      "width": 305,
+      "height": 278,
+      "bands": 1,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731700.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('uint16',)",
+      "nodata": null,
+      "resolution": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "file": "GHSL_Silchar_2010.tif",
+      "width": 305,
+      "height": 278,
+      "bands": 1,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731700.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('uint16',)",
+      "nodata": null,
+      "resolution": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "file": "GHSL_Silchar_2015.tif",
+      "width": 305,
+      "height": 278,
+      "bands": 1,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731700.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('uint16',)",
+      "nodata": null,
+      "resolution": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "file": "GHSL_Silchar_2020.tif",
+      "width": 305,
+      "height": 278,
+      "bands": 1,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731700.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('uint16',)",
+      "nodata": null,
+      "resolution": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "file": "VIIRS_Silchar_Raster_2021_2022.tif",
+      "width": 61,
+      "height": 56,
+      "bands": 48,
+      "crs": "EPSG:32646",
+      "bounds": [
+        464500.0,
+        2731500.0,
+        495000.0,
+        2759500.0
+      ],
+      "dtype": "('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')",
+      "nodata": null,
+      "resolution": [
+        500.0,
+        500.0
+      ]
+    }
+  ],
+  "csv_files": [
+    {
+      "file": "VIIRS_Silchar_Monthly_2021_2022.csv",
+      "rows": 24,
+      "columns": [
+        "system:index",
+        "baseline_radiance",
+        "data_source",
+        "mean_cloud_free_coverage",
+        "month",
+        ".geo"
+      ]
+    }
+  ]
+}

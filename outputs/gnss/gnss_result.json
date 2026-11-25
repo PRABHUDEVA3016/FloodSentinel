@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "classification": "SIMULATED",
+  "simulation_samples": 100000,
+  "assumed_sigma_m": 10,
+  "mean_position_error_m": 12.5655812222555,
+  "median_position_error_m": 11.796668265753016,
+  "p95_position_error_m": 24.554456565446145,
+  "limitations": "Illustrative Gaussian positioning-error model; not measured GNSS or NavIC performance."
+}

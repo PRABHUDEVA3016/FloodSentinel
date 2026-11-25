@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "classification": "SIMULATED",
+  "altitude_km": 700.0,
+  "orbital_period_minutes": 98.62363058735733,
+  "orbital_speed_km_s": 7.508072700641751,
+  "orbits_per_day": 14.600963191316497,
+  "model": "Ideal circular two-body orbit",
+  "limitations": "No perturbation, attitude, propulsion or validated ground-contact model."
+}

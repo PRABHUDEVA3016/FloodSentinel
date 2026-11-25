@@ -1,0 +1,68 @@
+{
+  "status": "COMPLETED",
+  "classification": "SIMULATED_ESTIMATES",
+  "input_files": [
+    {
+      "filename": "GHSL_Silchar_2000.tif",
+      "size_bytes": 54373,
+      "size_mb": 0.05185413360595703,
+      "local_read_time_sec": 0.0005157000014150981
+    },
+    {
+      "filename": "GHSL_Silchar_2005.tif",
+      "size_bytes": 59347,
+      "size_mb": 0.05659770965576172,
+      "local_read_time_sec": 0.00047030000132508576
+    },
+    {
+      "filename": "GHSL_Silchar_2010.tif",
+      "size_bytes": 64387,
+      "size_mb": 0.06140422821044922,
+      "local_read_time_sec": 0.0006160000011732336
+    },
+    {
+      "filename": "GHSL_Silchar_2015.tif",
+      "size_bytes": 71431,
+      "size_mb": 0.06812191009521484,
+      "local_read_time_sec": 0.0005082000025140587
+    },
+    {
+      "filename": "GHSL_Silchar_2020.tif",
+      "size_bytes": 76743,
+      "size_mb": 0.07318782806396484,
+      "local_read_time_sec": 0.0004988000000594184
+    },
+    {
+      "filename": "VIIRS_Silchar_Monthly_2021_2022.csv",
+      "size_bytes": 3359,
+      "size_mb": 0.0032033920288085938,
+      "local_read_time_sec": 0.0004346999994595535
+    },
+    {
+      "filename": "VIIRS_Silchar_Raster_2021_2022.tif",
+      "size_bytes": 262119,
+      "size_mb": 0.24997615814208984,
+      "local_read_time_sec": 0.0004692999973485712
+    }
+  ],
+  "total_input_files": 7,
+  "raw_data_mb": 0.564345,
+  "estimated_reduced_data_mb": 0.141086,
+  "estimated_data_reduction_pct": 75.0,
+  "assumptions": {
+    "compression_ratio": 4.0,
+    "link_speed_mbps": 5.0,
+    "onboard_power_watts": 5.0,
+    "processing_rate_mb_per_sec": 100.0
+  },
+  "estimated_processing_time_sec": 0.005643,
+  "estimated_transmission_time_sec": 0.225738,
+  "estimated_processing_energy_wh": 7.84e-06,
+  "actual_local_read_time_sec": 0.003513,
+  "limitations": [
+    "Compression ratio is assumed, not benchmarked.",
+    "Satellite link speed is assumed.",
+    "Power consumption is assumed.",
+    "Local laptop read performance is not spacecraft performance."
+  ]
+}
